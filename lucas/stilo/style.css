@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    
+    margin: 0%;
+    
+    
+}
+
 
 ul{
     list-style: none;
@@ -5,26 +14,187 @@ ul{
     
   }
   li{
-      float: right;
+      float: left;
       
       
   }
   li a{
     text-decoration: none;
-    display: block;
+    display: flex;
     padding: 10px 50px;
-    border: 1px solid black;
-    color: white;
-    background-color:blue;
+    color: black;
+    background-color: rgb(134, 134, 155);
     border-radius: 30%;
+    
+    
     
 }
 li a:hover{
-    background-color: red;
+    background-color: rgb(34, 32, 32);
     padding: 10px;
     transition: 1s;
 
 }
   
-#menu{
+.menu{
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    background-color: rgb(134, 134, 155);
+}
+.home{
+    display: flex;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1{
+    display: flex;
+    align-items: center;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    background-image: url(../imagens/cover.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    
+
+}
+.title{
+    display: flex;
+    justify-content:center;
+    background-color: rgb(134, 134, 155);
+    border: solid black;
+
+}
+#proid{
+    margin-top: 15px;
+}
+.saibamais{
+    display: flex;
+    justify-content: center;
+    border:  solid black;
+    border-radius: 15px 20px 15px 20px;
+    width: 200px;
+    align-self: center;
+    margin-left: 550px;
+    
+    
+}
+.sobremim{
+   display: flex;
+   background-color: rgb(231, 231, 238);
+   height: 100vh;
+   align-items: center;
+
+}
+.text{
+   
+   text-align: center;
+   font-size: 25px;
+   
+}
+#img-1{
+   height: 35%;;
+   float: left;
+   width: 500px;
+   height: auto;
+
+}
+#habilidades{
+    display: flex;
+   justify-content: center;
+    
+}
+ul.home{
+    flex-direction: column;
+}
+li.span.home{
+align-self: flex-end;
+}
+.services{
+    display: flex;
+    background-color:rgb(231, 231, 238);
+    height: 100vh;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    width: calc(33%-20px);
+    background-color: rgb(134, 134, 155);
+    border: solid black;
+    text-align: center;
+    padding: 20px 25px;
+}
+.skill{
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(231, 231, 238);
+}
+.lista{
+    display: flex;
+    font-size: 25px;
+    justify-content: left;
+    color: black;
+    background-color: grey;
+    width: 100%;
+}
+.html{width: 80%; background-color: blue; text-align: right;}
+.css{width: 80%; background-color: aqua; text-align: right;}
+.python{width: 70%; background-color: red;text-align: right;}
+.linux{width: 60%; background-color: yellow; text-align: right;}
+
+.project{
+    display: flex;
+    height: 100vh;
+    font-size: 25px;
+    background-color:rgb(231, 231, 238); 
+    color: black;
+    align-items: center;
+    text-align: center;
+   
+}
+.projetos{
+    display: block;
+    background-color: rgb(134, 134, 155);
+    padding: 20px 25px;
+    width: 35%;  
+    text-align: center; 
+    border: solid black;
+    
+    
+}
+a{color: inherit;}
+
+.experiencia img{
+    
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    
+    
+}
+.experiencia{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    height: 100vh;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(232, 232, 241);
+}
+.experiencia-exp{
+    padding: 10px 15px;
+    
+    margin-top: 50px;
+    
+
 }
